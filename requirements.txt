@@ -9,4 +9,4 @@ Pillow==8.2.0
 pybullet==3.2.6
 pyglet==1.5.15
 scipy==1.13.0
-zipp==3.18.1
+zipp==3.19.1
