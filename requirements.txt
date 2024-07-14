@@ -5,7 +5,7 @@ importlib_metadata==7.1.0
 numpy==1.26.4
 opencv-contrib-python==4.6.0.66
 opencv-python==4.9.0.80
-Pillow==8.2.0
+Pillow==10.3.0
 pybullet==3.2.6
 pyglet==1.5.15
 scipy==1.13.0
