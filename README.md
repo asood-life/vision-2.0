@@ -1,10 +1,10 @@
 <h3>Table of Contents</h3>
 <ul>
     <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#implementation">Implementation</a></li>
-    <li><a href="#installation-and-setup">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#team">Contributors</a></li>
+    <li><a href="#implementation">Approach</a></li>
+    <li><a href="#installation-and-setup">Installation and Setup</a></li>
+    <li><a href="#usage">Simulation</a></li>
+    <li><a href="#team">Team</a></li>
 </ul>
 
 <h3 id="introduction">Introduction</h3>
@@ -86,7 +86,7 @@
    </li>
 </ul>
 
-<h3 id="implementation">Implementation</h3>
+<h3 id="implementation">Apprach</h3>
 <ul>
    <li>
       Leveraged the <b>OpenCV</b> library to implement <b>Computer Vision</b> techniques, including <b>Masking, Erosion, Dilation Thresholding and Contour Approximation</b>, ensuring precise Image Segmentation from the arena. This involved extracting and storing all the shape-color combinations, including their respective center coordinates (x,y).
@@ -105,7 +105,7 @@
    </li>
 </ul>
 
-<h3 id="installation-and-setup">Installation</h3>
+<h3 id="installation-and-setup">Installation and Setup</h3>
 <blockquote>
    It is recommended to set up a virtual environment to avoid conflicts between package versions installed on your system and keep your workspace organized. To create a virtual environment and activate it, please follow the instructions detailed on <a href="https://docs.python.org/3/library/venv.html">python venv page</a>. The procedure to deactivate the environment is also provided here.
 </blockquote>
@@ -115,15 +115,15 @@
 </blockquote>
 <br>
 <ul>
-   <li>Clone the git repo using <code>git clone https://github.com/asood-life/vision-2.0.git</code></li>
+   <li>Clone the git repo using the following: <code>git clone https://github.com/asood-life/vision-2.0.git</code></li>
    <li>Install the required packages using <code>pip install -r requirements.txt</code></li>
    <li>Obtain additional environment dependencies using <code>pip install -e vision-arena</code></li>
 </ul>
 
-<h3 id="usage">Usage</h3>
+<h3 id="usage">Simulation</h3>
 Execute <code>python vision.py</code> in command line to commence the simulation.
 
-<h3 id="team">Contributors</h3>
+<h3 id="team">Team</h3>
 <div>
     <table>
          <td align="center">
