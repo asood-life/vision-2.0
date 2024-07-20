@@ -4,7 +4,7 @@
     <li><a href="#implementation">Approach</a></li>
     <li><a href="#installation-and-setup">Installation and Setup</a></li>
     <li><a href="#usage">Simulation</a></li>
-    <li><a href="#team">Team</a></li>
+    <li><a href="#team">Team Enigma</a></li>
 </ul>
 
 <h3 id="introduction">Introduction</h3>
@@ -86,13 +86,13 @@
    </li>
 </ul>
 
-<h3 id="implementation">Apprach</h3>
+<h3 id="implementation">Approach</h3>
 <ul>
    <li>
-      Leveraged the <b>OpenCV</b> library to implement <b>Computer Vision</b> techniques, including <b>Masking, Erosion, Dilation Thresholding and Contour Approximation</b>, ensuring precise Image Segmentation from the arena. This involved extracting and storing all the shape-color combinations, including their respective center coordinates (x,y).
+      Leveraged the <b>OpenCV</b> library to implement <b>Computer Vision</b> techniques, including <b>Masking, Erosion, Dilation Thresholding and Contour Approximation</b>, ensuring precise Image Segmentation from the arena. It involves extracting and storing all the shape-color combinations, including their respective center coordinates (x,y).
    </li>
    <li>
-      Utilized <b>PyBullet</b>, a renowned physics engine, to simulate the bot's movement within the Arena. Furthermore integrated <b>Aruco Markers</b> onto the bot for ensuring real-time tracking of its position in the arena at any instant.
+      Utilized a renowned physics engine <b>PyBullet</b>, to simulate the bot's movement within the Arena. Furthermore integrated <b>Aruco Markers</b> onto the bot for ensuring real-time tracking of its position in the arena at any instant.
    </li>
    <li>
       Used <b>Breadth First Search (BFS)</b> on a directed graph (where edges are created in the  direction of allowed movement) to secure all possible paths from the current position to the target destination (which is identifiable through output shape-color combination), selecting the route with the minimum length for traversal.
@@ -123,7 +123,7 @@
 <h3 id="usage">Simulation</h3>
 Execute <code>python vision.py</code> in command line to commence the simulation.
 
-<h3 id="team">Team</h3>
+<h3 id="team">Team Enigma</h3>
 <div>
     <table>
          <td align="center">
