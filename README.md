@@ -4,7 +4,7 @@
     <li><a href="#implementation">Approach</a></li>
     <li><a href="#installation-and-setup">Installation and Setup</a></li>
     <li><a href="#usage">Simulation</a></li>
-    <li><a href="#team">Team Enigma</a></li>
+    <li><a href="#team">Team</a></li>
 </ul>
 
 <h3 id="introduction">Introduction</h3>
@@ -123,7 +123,7 @@
 <h3 id="usage">Simulation</h3>
 Execute <code>python vision.py</code> in command line to commence the simulation.
 
-<h3 id="team">Team Enigma</h3>
+<h3 id="team">Team</h3>
 <div>
     <table>
          <td align="center">
