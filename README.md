@@ -89,25 +89,25 @@
 <h3 id="implementation">Approach</h3>
 <ul>
    <li>
-      Leveraged the <b>OpenCV</b> library to implement <b>Computer Vision</b> techniques, including <b>Masking, Erosion, Dilation Thresholding and Contour Approximation</b>, ensuring precise Image Segmentation from the arena. It involves extracting and storing all shape-color combinations, including their respective center coordinates (x,y).
+      Leveraged the <b>OpenCV</b> library to implement <b>Computer Vision</b> techniques, including <b>Masking, Erosion, Dilation Thresholding and Contour Approximation</b>, ensuring precise Image Segmentation from the arena. It involves extracting and storing all shape-color combinations, including their respective center coordinates.
    </li>
    <li>
-      Utilized a renowned physics engine <b>PyBullet</b>, to simulate the bot's movement within the Arena. Furthermore integrated <b>Aruco Markers</b> onto the bot for ensuring real-time tracking of its position in the arena at any instant.
+      Utilized a renowned physics engine <b>PyBullet</b>, to simulate the bot's movement within the Arena. Furthermore integrated <b>Aruco Markers</b> onto the bot for ensuring real-time tracking of its position in the arena.
    </li>
    <li>
-      Used <b>Breadth First Search (BFS)</b> on a directed graph (where edges are created in the  direction of allowed movement) to secure all possible paths from the current position to the target destination (which is identifiable through output shape-color combination), selecting the route with the minimum length for traversal.
+      Used <b>Breadth First Search (BFS)</b> on a directed graph (where edges are created in the  direction of allowed movement) to secure all possible paths from the current position to the target destination (which is identifiable through output combination), selecting the route with the minimum length for traversal.
    </li>
    <li>
       Implemented a <b>Two Vectors Approach</b> to guide the bot's movement, one indicating bot heading direction and the other vector between successive grids the bot traverses. User-defined functions like <code>dist()</code> - <code>ang()</code> - <code>rotate()</code> and <code>move()</code> are leveraged for ensuring proper alignment and maneuvering the bot within arena.
    </li>
    <li>
-      Altered graph edges after the bot crossed the starting zone to ensure the bot completes a clockwise round and does not retrace its previous path. The simulation concludes upon reaching the central <b>home zone</b>.
+      Altered graph edges after the bot crossed the starting zone to ensure the bot completes a clockwise round and does not retrace its previous path. The simulation concludes upon reaching central <b>home zone</b>.
    </li>
 </ul>
 
 <h3 id="installation-and-setup">Installation and Setup</h3>
 <blockquote>
-   It is recommended to set up a virtual environment to avoid conflicts between package versions installed on your system and keep your workspace organized. To create a virtual environment and activate it, please follow the instructions detailed on <a href="https://docs.python.org/3/library/venv.html">python venv page</a>. The procedure to deactivate the environment is also provided here.
+   It is recommended to set up a virtual environment to avoid conflicts between package versions installed on your system and keep your workspace organized. To create a virtual environment and activate it, please follow the instructions detailed on <a href="https://docs.python.org/3/library/venv.html">python venv page</a>. The procedure to deactivate environment is also given here.
 </blockquote>
 <br>
 <blockquote>
