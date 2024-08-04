@@ -10,7 +10,6 @@
 <h3 id="introduction">Introduction</h3>
 <p align="center">
    <img align="center" src = "media/arena.gif" alt = "Arena" width = "250">
-   <img align="center" src="media/bot-with-arena.png" width="250">
    <img align="center" src = "media/husky.gif" alt = "Bot" width = "250"> 
 </p>
 <br>
@@ -82,7 +81,7 @@
       At the commencement of each turn, a function generates a shape-color combination. Afterwards, the bot is tasked with navigating to the nearest block that matches the specified criteria from its current position.<br>
    </li>
    <li>
-      The heart of the Arena serves as the <strong>Home Zone</strong>. The Bot's objective is to navigate the Arena, completing a full clockwise circuit and returning to the Home Zone upon successful completion of the circuit.
+      The heart of the Arena serves as the <strong>Home Zone</strong>. The Bot's objective is to navigate the Arena, completing a full clockwise circuit and returning to home zone upon successful completion of circuit.
    </li>
 </ul>
 <br>
@@ -95,8 +94,14 @@
    <li>
       Utilized a renowned physics engine <b>PyBullet</b>, to simulate the bot's movement within the Arena. Furthermore integrated <b>Aruco Markers</b> onto the bot for ensuring real-time tracking of its position in the arena.
    </li>
+   <br>
+   <div align="center">
+      <img align="center" src="media/bot-with-arena.png" width="500">
+   </div>
+   </br>
+
    <li>
-      Used <b>Breadth First Search (BFS)</b> on a directed graph (where edges are created in the  direction of allowed movement) to secure all possible paths from the current position to the target destination (which is identifiable through output combination), selecting the route with the minimum length for the traversal.
+      Used <b>Breadth First Search (BFS)</b> on a directed graph (where edges are created in the  direction of allowed movement) to secure all possible paths from the current position to the target destination (which is identifiable through output combination), selecting the route with the minimum length for the  traversal.
    </li>
    <li>
       Implemented a <b>Two Vectors Approach</b> to guide the bot's movement, one indicating bot heading direction and the other vector between successive grids the bot traverses. User-defined functions like <code>dist()</code> - <code>ang()</code> - <code>rotate()</code> and <code>move()</code> are leveraged for ensuring proper alignment and maneuvering the bot within arena.
