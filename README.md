@@ -9,8 +9,8 @@
 
 <h3 id="introduction">Introduction</h3>
 <p align="center">
-   <img align="center" src = "media/arena.gif" alt = "Arena" width = "250">
-   <img align="center" src = "media/husky.gif" alt = "Bot" width = "250"> 
+   <img align="center" src = "media/arena.gif" alt = "Arena" width = "400">
+   <img align="center" src = "media/husky.gif" alt = "Bot" width = "400"> 
 </p>
 <br>
 <ul>
@@ -107,7 +107,7 @@
       Implemented a <b>Two Vectors Approach</b> to guide the bot's movement, one indicating bot heading direction and the other vector between successive grids the bot traverses. User-defined functions like <code>dist()</code> - <code>ang()</code> - <code>rotate()</code> and <code>move()</code> are leveraged for ensuring proper alignment and maneuvering the bot within arena.
    </li>
    <li>
-      Altered graph edges after the bot crossed the starting zone to ensure the bot completes a clockwise round and does not retrace its previous path. The simulation concludes upon reaching central <b>home zone</b>.
+      Altered graph edges after the bot crossed the starting zone to ensure the bot completes a clockwise round and does not retrace its previous path. The simulation concludes upon reaching <b>home zone</b>.
    </li>
 </ul>
 
