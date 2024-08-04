@@ -8,15 +8,15 @@
 </ul>
 
 <h3 id="introduction">Introduction</h3>
-<p align=center>
-   <img align=center src = "media/arena.gif" alt = "Arena" width = "250">
-   <img align=center src="media/bot-with-arena.png" width="250">
-   <img align=center src = "media/husky.gif" alt = "Bot" width = "250"> 
+<p align="center">
+   <img align="center" src = "media/arena.gif" alt = "Arena" width = "250">
+   <img align="center" src="media/bot-with-arena.png" width="250">
+   <img align="center" src = "media/husky.gif" alt = "Bot" width = "250"> 
 </p>
 
 <ul>
    <li>
-      The Arena is divided into two distinct paths: <strong>INNER Square</strong> and <strong>OUTER Square</strong>. These paths are interconnected by four distinct pathways, each marked with a unique color and leading to the Home Zone at center.
+      The Arena is divided into two paths: <strong>INNER Square</strong> and <strong>OUTER Square</strong>. These paths are interconnected by four distinct pathways, each marked with a unique color and leading to the Home Zone at center.
    </li>
    <li>
       The Bot can switch between the <strong>OUTER</strong> and <strong>INNER paths</strong> and is mandated to move in clockwise direction.
@@ -25,7 +25,7 @@
       Various shapes (<strong>Square</strong>, <strong>Circle</strong>, and <strong>Triangle</strong>) adorn the Arena, each represented in two distinct colors, <strong>Red</strong> and <strong>Yellow</strong>, creating a total of six unique combinations as illustrated in the following figure.
    </li>
    <br>
-   <table align=center>
+   <table align="center">
       <td align="center">
          <img src="https://i.gyazo.com/895b7ba241c10848fb4b664a480a36bf.png" width="100px;" alt=""/>
          <br />
@@ -89,7 +89,7 @@
 <h3 id="implementation">Approach</h3>
 <ul>
    <li>
-      Leveraged the <b>OpenCV</b> library to implement <b>Computer Vision</b> techniques, including <b>Masking, Erosion, Dilation Thresholding and Contour Approximation</b>, ensuring precise Image Segmentation from the arena. It involves extracting and storing all the shape-color combinations, including their respective center coordinates (x,y).
+      Leveraged the <b>OpenCV</b> library to implement <b>Computer Vision</b> techniques, including <b>Masking, Erosion, Dilation Thresholding and Contour Approximation</b>, ensuring precise Image Segmentation from the arena. It involves extracting and storing all shape-color combinations, including their respective center coordinates (x,y).
    </li>
    <li>
       Utilized a renowned physics engine <b>PyBullet</b>, to simulate the bot's movement within the Arena. Furthermore integrated <b>Aruco Markers</b> onto the bot for ensuring real-time tracking of its position in the arena at any instant.
@@ -150,5 +150,5 @@ Execute <code>python vision.py</code> in command line to commence the simulation
 </div>
 <hr>
 <div>
-    Thank you for taking the time to go through this project! If you find it valuable, please consider giving it a ⭐ star. Your support is appreciated and helps others in discovering the project. Should you have any enhancement requests or encounter a bug, please report it in the <a href="https://github.com/asood-life/vision-2.0/issues">Issues</a> section. Your feedback is crucial in improving this project for all.
+    Thank you for taking the time to go through this project! If you find it valuable, please consider giving it a ⭐ star. Your support is appreciated and helps others in discovering the project. Should you have enhancement requests or encounter a bug, please report it in the <a href="https://github.com/asood-life/vision-2.0/issues">Issues</a> section. Your feedback is crucial in improving this project.
 </div>
