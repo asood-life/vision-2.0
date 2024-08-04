@@ -13,7 +13,7 @@
    <img align="center" src="media/bot-with-arena.png" width="250">
    <img align="center" src = "media/husky.gif" alt = "Bot" width = "250"> 
 </p>
-
+<br>
 <ul>
    <li>
       The Arena is divided into two paths: <strong>INNER Square</strong> and <strong>OUTER Square</strong>. These paths are interconnected by four distinct pathways, each marked with a unique color and leading to the Home Zone at center.
@@ -85,17 +85,18 @@
       The heart of the Arena serves as the <strong>Home Zone</strong>. The Bot's objective is to navigate the Arena, completing a full clockwise circuit and returning to the Home Zone upon successful completion of the circuit.
    </li>
 </ul>
+<br>
 
 <h3 id="implementation">Approach</h3>
 <ul>
    <li>
-      Leveraged the <b>OpenCV</b> library to implement <b>Computer Vision</b> techniques, including <b>Masking, Erosion, Dilation Thresholding and Contour Approximation</b>, ensuring precise Image Segmentation from the arena. It involves extracting and storing all shape-color combinations, including their respective center coordinates.
+      Leveraged <b>OpenCV</b> to implement <b>Computer Vision</b> techniques, including <b>Masking, Erosion, Dilation, Thresholding and Contour Approximation</b>, ensuring precise Image Segmentation from the arena. It involves extracting and storing all shape-color combinations, including their respective center coordinates.
    </li>
    <li>
       Utilized a renowned physics engine <b>PyBullet</b>, to simulate the bot's movement within the Arena. Furthermore integrated <b>Aruco Markers</b> onto the bot for ensuring real-time tracking of its position in the arena.
    </li>
    <li>
-      Used <b>Breadth First Search (BFS)</b> on a directed graph (where edges are created in the  direction of allowed movement) to secure all possible paths from the current position to the target destination (which is identifiable through output combination), selecting the route with the minimum length for traversal.
+      Used <b>Breadth First Search (BFS)</b> on a directed graph (where edges are created in the  direction of allowed movement) to secure all possible paths from the current position to the target destination (which is identifiable through output combination), selecting the route with the minimum length for the traversal.
    </li>
    <li>
       Implemented a <b>Two Vectors Approach</b> to guide the bot's movement, one indicating bot heading direction and the other vector between successive grids the bot traverses. User-defined functions like <code>dist()</code> - <code>ang()</code> - <code>rotate()</code> and <code>move()</code> are leveraged for ensuring proper alignment and maneuvering the bot within arena.
