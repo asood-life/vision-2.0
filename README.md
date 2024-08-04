@@ -96,12 +96,12 @@
    </li>
    <br>
    <div align="center">
-      <img align="center" src="media/bot-with-arena.png" width="500">
+      <img align="center" src="media/bot-with-arena.png" width="400">
    </div>
    </br>
 
    <li>
-      Used <b>Breadth First Search (BFS)</b> on a directed graph (where edges are created in the  direction of allowed movement) to secure all possible paths from the current position to the target destination (which is identifiable through output combination), selecting the route with the minimum length for the  traversal.
+      Used <b>Breadth First Search (BFS)</b> on a directed graph (where edges are created in the  direction of allowed movement) to secure all possible paths from current position to the target destination (which is identifiable through output combination), selecting the route with the minimum length for the  traversal.
    </li>
    <li>
       Implemented a <b>Two Vectors Approach</b> to guide the bot's movement, one indicating bot heading direction and the other vector between successive grids the bot traverses. User-defined functions like <code>dist()</code> - <code>ang()</code> - <code>rotate()</code> and <code>move()</code> are leveraged for ensuring proper alignment and maneuvering the bot within arena.
